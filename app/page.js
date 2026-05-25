@@ -1,3 +1,3 @@
-export default function HOME() {
-  return <h1>HEY, Welcome to the Redhood.</h1>;
+export default function Home() {
+  return <h1>HEY, Welcome to the Redhood. oisdjfoijdf</h1>;
 }
