@@ -45,6 +45,7 @@ a {
 
 button {
   font: inherit;
+  color: inherit;
   border: none;
 }
 
@@ -194,6 +195,14 @@ button {
   display: block;
   object-fit: cover;
   object-position: center;
+}
+
+.featuredEvent-button {
+  background-color: var(--accent);
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+  width: 80%;
 }
 
 /* Marquee */

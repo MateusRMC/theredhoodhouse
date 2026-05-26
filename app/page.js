@@ -78,7 +78,7 @@ export default function Home() {
               Drinks, friends, and Mamma Mia song on a Boat at sunset, what else do you need?
             </p>
           </div>
-          <button className="featuredEvent-Button">Get your tickets</button>
+          <button className="featuredEvent-button">Get your tickets</button>
         </div>
       </div>
 
