@@ -46,14 +46,11 @@ export default function Home() {
             className={`site-nav ${isMenuOpen ? "is-open" : ""}`}
             aria-label="Main navigation"
           >
-            <a href="#featured" onClick={closeMenu}>
-              Featured
-            </a>
             <a href="#events" onClick={closeMenu}>
               Events
             </a>
             <a href="#about" onClick={closeMenu}>
-              House
+              The House
             </a>
             <a className="nav-cta" href="#tickets" onClick={closeMenu}>
               Tickets
@@ -63,22 +60,33 @@ export default function Home() {
       </div>
       <div className="hero">
         <div className="featuredEvent">
-          <div className="featuredEvent-title">
-            <h1>Mamma Mia! : All aboard</h1>
-          </div>
-          <div className="featuredPoster-wrapper">
-            <img src="/featurePoster.jpg" />
+          <div className="featuredEvent-imageWrapper">
+            <img
+              className="featuredEvent-poster"
+              src="/featurePoster.jpg"
+              alt="All aboard event poster"
+            />
           </div>
           <div className="featuredEvent-params">
-            <p className="featuredEvent-details">
+            <div className="featuredEvent-title">
+              <h2>All aboard! : A Summer Experience</h2>
+            </div>
+            <small className="featuredEvent-details">
               July 13th • 6:00 PM • Sandy Empire Boat • Toronto
-            </p>
-            <p className="featuredEvent-description">
-              Drinks, friends, and Mamma Mia songs on a Boat at sunset, do you need anything else?
-            </p>
-          </div>
+            </small>
 
-          <button className="featuredEvent-button">Get your 15$ ticket</button>
+            <p className="featuredEvent-description">
+              Drinks, friends, Mamma Mia songs, Local Musicals on a Boat at sunset, do you need
+              anything else?
+            </p>
+
+            <a
+              href="https://www.zeffy.com/en-CA/ticketing/mamma-mia-all-aboard"
+              className="featuredEvent-button"
+            >
+              Get your $15 ticket
+            </a>
+          </div>
         </div>
       </div>
 
@@ -96,50 +104,36 @@ export default function Home() {
       <section id="events" className="events-section">
         <div className="section-heading">
           <p className="eyebrow">up next</p>
-          <h2>all events</h2>
+          <h2>All events</h2>
         </div>
 
         <div className="events-grid">
           <article className="event-card">
-            <p className="event-date">Oct 04</p>
-            <h3>Night Cinema: Blood & Velvet</h3>
-            <p>A curated screening night for cult images, soft horror and slow cinema.</p>
-            <a href="mailto:hello@theredhoodhouse.com">Join list</a>
-          </article>
-
-          <article className="event-card">
-            <p className="event-date">Oct 18</p>
-            <h3>Listening Session 001</h3>
-            <p>An intimate sound-first night with no stage, no phones and a long final track.</p>
-            <a href="mailto:hello@theredhoodhouse.com">Join list</a>
-          </article>
-
-          <article className="event-card">
-            <p className="event-date">Nov 02</p>
-            <h3>House Performance Lab</h3>
-            <p>New works, unfinished gestures and small-room performance pieces.</p>
-            <a href="mailto:hello@theredhoodhouse.com">Join list</a>
+            <p className="event-date">Confirming date</p>
+            <h3>The Red Launch</h3>
+            <p>A debut of everything about The Redhood in our comfortable </p>
+            <a href="#">Go to event</a>
           </article>
         </div>
       </section>
 
       <section id="about" className="about-section">
         <div className="about-heading">
-          <p className="eyebrow">the house</p>
-          <h2>Built like a room. Programmed like a film.</h2>
+          <h2>The House</h2>
         </div>
 
         <p>
-          the redhood house exists between theatre, cinema and a members-only salon. A place for
-          artists, audiences and night people to gather around works that feel handmade, haunted and
-          alive.
+          The Redhood House is a not-for-profit cultural platform dedicated to strengthening
+          Toronto’s independent performing arts community. We create accessible live experiences,
+          connect emerging and independent artists with audiences and collaborators, and promote
+          local cultural projects that bring people together through art, expression, and community.
         </p>
       </section>
 
       <footer className="site-footer">
         <p>© {new Date().getFullYear()} The Redhood House. All rights reserved.</p>
         <div className="footer-links">
-          <a href="mailto:contact@theredhoodhouse.com">contact@theredhoodhouse.com</a>
+          <a href="mailto:contact@theredhoodhouse.com">theredhoodhouse@gmail.com</a>
 
           <a
             className="social-link"

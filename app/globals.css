@@ -139,7 +139,7 @@ button {
   color: var(--muted);
   font-size: 0.76rem;
   font-weight: 900;
-  letter-spacing: 0.12em;
+
   text-transform: uppercase;
   border-bottom: 1px solid var(--faint);
   transition:
@@ -163,57 +163,79 @@ button {
 }
 
 /* hero */
-
 .hero {
+  min-height: 90dvh;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  padding: 2vw 4vw;
-}
-
-.headline {
-  display: none; /* it will show only in desktop */
 }
 
 .featuredEvent {
+  flex: 1;
   display: flex;
   flex-direction: column;
-}
-
-.featuredEvent-title h1 {
-  font-size: 2.5em;
-  text-align: center;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1rem;
+  padding: 1em;
+  overflow: hidden;
 }
 
 .featuredEvent-params {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
-.featuredPoster-wrapper {
+.featuredEvent-title h2 {
+  margin: 10px auto;
+  text-align: center;
+  font-size: 10vw;
+  font-weight: 400;
+  line-height: 0.85;
+}
+
+.featuredEvent-details {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.featuredEvent-description {
+  margin: 0;
+  font-weight: 200;
+  font-size: clamp(1rem, 2.4vw, 1.35rem);
+  line-height: 1.45;
+}
+
+.featuredEvent-imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  aspect-ratio: 1/1.5;
   overflow: hidden;
   border-radius: 5px;
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.22);
-  margin-bottom: 50px;
 }
 
-.featuredPoster-wrapper img {
-  width: 100%;
-  height: 100%;
+.featuredEvent-poster {
   display: block;
-  object-fit: cover;
-  object-position: center;
+  width: min(100%, 430px);
+  max-height: 52dvh;
+  height: auto;
+  object-fit: contain;
 }
 
 .featuredEvent-button {
   background-color: var(--accent);
-  padding: 10px;
+  padding: 0.9rem 1.2rem;
   border-radius: 10px;
+  width: fit-content;
+  margin: 0;
+  color: var(--text);
+  font-weight: 500;
   width: 100%;
   cursor: pointer;
 }
-
 /* Marquee */
 
 .marquee-strip {
@@ -259,8 +281,6 @@ button {
   font-size: clamp(3.2rem, 14vw, 7rem);
   font-weight: 400;
   line-height: 0.9;
-  letter-spacing: -0.075em;
-  text-transform: lowercase;
 }
 
 .events-grid {
@@ -295,7 +315,6 @@ button {
   font-size: clamp(2.25rem, 9vw, 3.4rem);
   font-weight: 400;
   line-height: 0.95;
-  letter-spacing: -0.055em;
 }
 
 .event-card p:not(.event-date) {
@@ -311,7 +330,7 @@ button {
   color: var(--text);
   font-size: 0.72rem;
   font-weight: 900;
-  letter-spacing: 0.14em;
+
   text-transform: uppercase;
   border-bottom: 1px solid var(--accent);
 }
@@ -444,23 +463,36 @@ button {
     background: transparent;
   }
 
-  .hero {
-    flex-direction: row;
-    height: 100dvh;
-  }
-
-  .headline {
-    display: flex; /* it will show only in desktop */
-    flex: 5;
-  }
-
   .featuredEvent {
-    flex: 5;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
   }
 
-  .headline h1 {
-    font-size: 3em;
-    line-height: 1.5;
+  .featuredEvent-params {
+    flex: 1;
+  }
+
+  .featuredEvent-title h2 {
+    font-size: 5vw;
+  }
+
+  .featuredEvent-imageWrapper {
+    flex: 1;
+    justify-content: flex-end;
+  }
+
+  .featuredEvent-poster {
+    width: 100%;
+    max-height: 78dvh;
+  }
+
+  .featuredEvent-button,
+  .featuredEvent-details,
+  .featuredEvent-description {
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
   }
 
   .section-heading {
