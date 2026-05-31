@@ -62,23 +62,23 @@ export default function Home() {
         </div>
       </div>
       <div className="hero">
-        <div className="headline">
-          <h1>We are the powerhouse of artistic events in Toronto.</h1>
-        </div>
         <div className="featuredEvent">
+          <div className="featuredEvent-title">
+            <h1>Mamma Mia! : All aboard</h1>
+          </div>
           <div className="featuredPoster-wrapper">
             <img src="/featurePoster.jpg" />
           </div>
-          <h2 className="featuredEvent-title">Mamma Mia! : All aboard</h2>
           <div className="featuredEvent-params">
-            <small className="featuredEvent-details">
+            <p className="featuredEvent-details">
               July 13th • 6:00 PM • Sandy Empire Boat • Toronto
-            </small>
+            </p>
             <p className="featuredEvent-description">
-              Drinks, friends, and Mamma Mia song on a Boat at sunset, what else do you need?
+              Drinks, friends, and Mamma Mia songs on a Boat at sunset, do you need anything else?
             </p>
           </div>
-          <button className="featuredEvent-button">Get your tickets</button>
+
+          <button className="featuredEvent-button">Get your 15$ ticket</button>
         </div>
       </div>
 

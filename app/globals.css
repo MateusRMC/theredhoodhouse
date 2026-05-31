@@ -178,15 +178,24 @@ button {
 .featuredEvent {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+}
+
+.featuredEvent-title h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.featuredEvent-params {
+  text-align: center;
 }
 
 .featuredPoster-wrapper {
-  width: min(100%, 90dvh);
-  aspect-ratio: 1 / 1;
+  width: 100%;
+  aspect-ratio: 1/1.5;
   overflow: hidden;
   border-radius: 5px;
   box-shadow: 0 20px 45px rgba(0, 0, 0, 0.22);
+  margin-bottom: 50px;
 }
 
 .featuredPoster-wrapper img {
@@ -200,9 +209,9 @@ button {
 .featuredEvent-button {
   background-color: var(--accent);
   padding: 10px;
-  margin: auto;
   border-radius: 10px;
-  width: 80%;
+  width: 100%;
+  cursor: pointer;
 }
 
 /* Marquee */
@@ -437,10 +446,21 @@ button {
 
   .hero {
     flex-direction: row;
+    height: 100dvh;
   }
 
   .headline {
     display: flex; /* it will show only in desktop */
+    flex: 5;
+  }
+
+  .featuredEvent {
+    flex: 5;
+  }
+
+  .headline h1 {
+    font-size: 3em;
+    line-height: 1.5;
   }
 
   .section-heading {
