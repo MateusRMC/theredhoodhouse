@@ -69,7 +69,7 @@ export default function Home() {
           </div>
           <div className="featuredEvent-params">
             <div className="featuredEvent-title">
-              <h2>Red</h2>
+              <h2>Red.</h2>
             </div>
             <small className="featuredEvent-details">
               July 31st • 6:00 PM • Bampot Tea House • Toronto
@@ -84,7 +84,7 @@ export default function Home() {
               href="https://www.zeffy.com/en-CA/ticketing/the-red-night"
               className="featuredEvent-button"
             >
-              Get your $15 ticket
+              Get your tickets now!
             </a>
           </div>
         </div>
@@ -110,7 +110,7 @@ export default function Home() {
         <div className="events-grid">
           <article className="event-card">
             <p className="event-date">July 31st, 2026</p>
-            <h3>Red</h3>
+            <h3>Red.</h3>
             <p>
               A debut of everything about The Redhood, a night to celebrate the Arts through the
               most amazing performers of Toronto.
