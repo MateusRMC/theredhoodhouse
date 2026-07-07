@@ -63,25 +63,25 @@ export default function Home() {
           <div className="featuredEvent-imageWrapper">
             <img
               className="featuredEvent-poster"
-              src="/featurePoster.jpg"
+              src="/featurePoster.png"
               alt="All aboard event poster"
             />
           </div>
           <div className="featuredEvent-params">
             <div className="featuredEvent-title">
-              <h2>All aboard! : A Summer Experience</h2>
+              <h2>Red</h2>
             </div>
             <small className="featuredEvent-details">
-              July 13th • 6:00 PM • Sandy Empire Boat • Toronto
+              July 31st • 6:00 PM • Bampot Tea House • Toronto
             </small>
 
             <p className="featuredEvent-description">
-              Drinks, friends, Mamma Mia songs, Local Musicals on a Boat at sunset, do you need
-              anything else?
+              A debut of everything about The Redhood, a night to celebrate the Arts through the
+              most amazing performers of Toronto.
             </p>
 
             <a
-              href="https://www.zeffy.com/en-CA/ticketing/mamma-mia-all-aboard"
+              href="https://www.zeffy.com/en-CA/ticketing/the-red-night"
               className="featuredEvent-button"
             >
               Get your $15 ticket
@@ -109,10 +109,13 @@ export default function Home() {
 
         <div className="events-grid">
           <article className="event-card">
-            <p className="event-date">Confirming date</p>
-            <h3>The Red Launch</h3>
-            <p>A debut of everything about The Redhood in our comfortable </p>
-            <a href="#">Go to event</a>
+            <p className="event-date">July 31st, 2026</p>
+            <h3>Red</h3>
+            <p>
+              A debut of everything about The Redhood, a night to celebrate the Arts through the
+              most amazing performers of Toronto.
+            </p>
+            <a href="https://www.zeffy.com/en-CA/ticketing/the-red-night">Go to event</a>
           </article>
         </div>
       </section>
