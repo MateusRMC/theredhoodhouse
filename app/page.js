@@ -124,12 +124,19 @@ export default function Home() {
         <div className="about-heading">
           <h2>The House</h2>
         </div>
-
         <p>
-          The Redhood House is a not-for-profit cultural platform dedicated to strengthening
-          Toronto’s independent performing arts community. We create accessible live experiences,
-          connect emerging and independent artists with audiences and collaborators, and promote
-          local cultural projects that bring people together through art, expression, and community.
+          The Redhood House is an organization dedicated to strengthening Toronto’s performing arts
+          community. We create live experiences, connect emerging and independent artists with
+          audiences and collaborators, and promote local cultural projects that bring people
+          together through art, expression, and community.
+          <br />
+          <br />
+          Our main goal is to create a safe and emotional space for those who want to express
+          themselves fully and freely. A place where people perform, experiment, connect with each
+          other and celebrate expression in all its forms. <br />
+          <br />
+          The Redhood is the group of people who surrender, celebrating and embracing both their own
+          and each other’s vulnerability.
         </p>
       </section>
 
