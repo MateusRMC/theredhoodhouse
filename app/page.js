@@ -72,7 +72,7 @@ export default function Home() {
               <h2>Red.</h2>
             </div>
             <small className="featuredEvent-details">
-              July 31st • 6:00 PM • Bampot Tea House • Toronto
+              July 31st • 6:00 PM • Bampot House • Toronto
             </small>
 
             <p className="featuredEvent-description">
