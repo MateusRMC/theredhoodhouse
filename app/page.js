@@ -63,7 +63,7 @@ export default function Home() {
           <div className="featuredEvent-imageWrapper">
             <img
               className="featuredEvent-poster"
-              src="/featurePoster.png"
+              src="/featurePoster.jpg"
               alt="All aboard event poster"
             />
           </div>
@@ -76,8 +76,8 @@ export default function Home() {
             </small>
 
             <p className="featuredEvent-description">
-              A debut of everything about The Redhood, a night to celebrate the Arts through the
-              most amazing performers of Toronto.
+              A debut of everything about the Redhood, a live performance night with outstanding
+              hand-picked artists in Toronto.
             </p>
 
             <a
@@ -112,8 +112,8 @@ export default function Home() {
             <p className="event-date">July 31st, 2026</p>
             <h3>Red.</h3>
             <p>
-              A debut of everything about The Redhood, a night to celebrate the Arts through the
-              most amazing performers of Toronto.
+              A debut of everything about the Redhood, a live performance night with outstanding
+              hand-picked artists in Toronto.
             </p>
             <a href="https://www.zeffy.com/en-CA/ticketing/the-red-night">Go to event</a>
           </article>
