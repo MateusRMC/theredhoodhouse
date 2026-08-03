@@ -69,7 +69,7 @@ export default function Home() {
           </div>
           <div className="featuredEvent-params">
             <div className="featuredEvent-title">
-              <h2>Red.</h2>
+              <h2>Red. </h2>
             </div>
             <small className="featuredEvent-details">
               July 31st • 6:00 PM • Bampot House • Toronto
