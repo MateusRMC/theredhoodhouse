@@ -177,7 +177,7 @@ button {
   justify-content: space-evenly;
   width: 100%;
   gap: 1rem;
-  padding: 1em;
+  padding: 0 1em;
   overflow: hidden;
 }
 
