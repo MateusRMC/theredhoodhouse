@@ -87,7 +87,9 @@ export default function Home() {
             </a>
           </div>
         </div>*/}
-        <video className="bg-video" src="/website.mp4" autoPlay muted loop playsInline />
+        <video className="bg-video" autoPlay muted loop playsInline preload="auto" controls={false}>
+          <source src="/website.mp4" type="video/mp4" />
+        </video>
         <div className="hero-content">
           <h1>Welcome to the Redhood</h1>
           <a href="#events">Check our events</a>
