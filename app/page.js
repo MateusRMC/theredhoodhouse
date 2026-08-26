@@ -88,7 +88,7 @@ export default function Home() {
           </div>
         </div>*/}
         <video className="bg-video" autoPlay muted loop playsInline preload="auto" controls={false}>
-          <source src="/website.mp4" type="video/mp4" />
+          <source src="https://www.theredhoodhouse.com/website.mp4" type="video/mp4" />
         </video>
         <div className="hero-content">
           <h1>Welcome to the Redhood</h1>
