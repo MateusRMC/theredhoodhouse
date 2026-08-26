@@ -1,5 +1,4 @@
 "use client";
-
 import { useState, useEffect } from "react";
 
 export default function Home() {
@@ -59,7 +58,7 @@ export default function Home() {
         </div>
       </div>
       <div className="hero">
-        <div className="featuredEvent">
+        {/*<div className="featuredEvent">
           <div className="featuredEvent-imageWrapper">
             <img
               className="featuredEvent-poster"
@@ -87,6 +86,11 @@ export default function Home() {
               Get your tickets now!
             </a>
           </div>
+        </div>*/}
+        <video className="bg-video" src="/website.mp4" autoPlay muted loop playsInline />
+        <div className="hero-content">
+          <h1>Welcome to the Redhood</h1>
+          <a href="#events">Check our events</a>
         </div>
       </div>
 
@@ -110,7 +114,7 @@ export default function Home() {
         <div className="events-grid">
           <article className="event-card">
             <p className="event-date">July 31st, 2026</p>
-            <h3>Red.</h3>
+            <h3>Red</h3>
             <p>
               A debut of everything about the Redhood, a live performance night with outstanding
               hand-picked artists in Toronto.
