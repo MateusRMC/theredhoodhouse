@@ -95,7 +95,7 @@ export default function Home() {
         </video>
         <div className="hero-content">
           <h1>Welcome to the Redhood</h1>
-          <a href="#events">Check our events</a>
+          <a href="#events">See our events</a>
         </div>
       </div>
 
@@ -117,14 +117,29 @@ export default function Home() {
         </div>
 
         <div className="events-grid">
-          <article className="event-card">
+          {/*<article className="event-card">
+             
+            <h3>Red: Our debut</h3>
             <p className="event-date">July 31st, 2026</p>
-            <h3>Red</h3>
+            <img className="event-picture" src="/red-picture.jpg" />
             <p>
               A debut of everything about the Redhood, a live performance night with outstanding
               hand-picked artists in Toronto.
             </p>
-            <a href="https://www.zeffy.com/en-CA/ticketing/the-red-night">Go to event</a>
+            <a>Pictures are on the way</a>
+          </article>
+          */}
+          <article className="event-card">
+            <h3>September Musicals Party</h3>
+            <p className="event-date">July 31st, 2026</p>
+            <img className="event-picture" src="/sep-event.png" />
+            <p>
+              A debut of everything about the Redhood, a live performance night with outstanding
+              hand-picked artists in Toronto.
+            </p>
+            <a href="https://www.zeffy.com/en-CA/ticketing/september-musicals-party-2">
+              Go to event
+            </a>
           </article>
         </div>
       </section>
