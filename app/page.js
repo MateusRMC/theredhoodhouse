@@ -95,7 +95,7 @@ export default function Home() {
         </video>
         <div className="hero-content">
           <h1>Welcome to the Redhood</h1>
-          <a href="#events">See our events</a>
+          <a href="#events">Find tickets</a>
         </div>
       </div>
 
@@ -134,8 +134,9 @@ export default function Home() {
             <p className="event-date">July 31st, 2026</p>
             <img className="event-picture" src="/sep-event.png" />
             <p>
-              A debut of everything about the Redhood, a live performance night with outstanding
-              hand-picked artists in Toronto.
+              An afternoon dedicated to the musicals that made September their month! From Heathers
+              and Little Shop of Horrors to Ride the Cyclone, and much more of this campy nostalgic
+              teenage nightmare vibe!
             </p>
             <a href="https://www.zeffy.com/en-CA/ticketing/september-musicals-party-2">
               Go to event
